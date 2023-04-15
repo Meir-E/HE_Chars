@@ -1,6 +1,10 @@
 # HE_Chars
 HE_Chars
 # Hebrew Characters Codes etc
+#CMD
+```CMD
+0x5b0..0x5bf + 0x5d0..0x5f2 | ForEach-Object -Process {[char][int32]$_}
+```
 # Output
 ```Output
  Windows PowerShell
